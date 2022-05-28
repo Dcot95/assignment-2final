@@ -1,0 +1,48 @@
+#{extends 'main.html' /}
+#{set title:'Station' /}
+
+#{menu id:"dashboard"/}
+
+<section class="ui segment">
+    <h2 class="ui header">
+        ${station.name}
+    </h2>
+    <table class="ui selectable inverted table">
+        <thead>
+        <tr>
+            <th>${station.name}</th>
+            <th>Weather</th>
+            <th>Temp</th>
+            <th>Wind</th>
+            <th>Pressure</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        <tr>
+            <td>
+            </td>
+            <td>
+                ${latestReading?.weatherCode()}
+            </td>
+            <td>
+                ${latestReading?.temperature} C
+                <div class="item">${latestReading?.convertToFarenheit()} F</div>
+            </td>
+            <td>
+                ${latestReading?.beaufortConvert()}
+                <div class="item">${latestReading?.windCompass()}</div>
+                <div class="item">Feels like</div>
+                <div class="item">${latestReading?.windChill()?.round(1)}</div>
+            </td>
+            <td>
+                ${latestReading?.pressure} hpa
+            </td>
+        </tr>
+
+        </tbody>
+    </table>
+
+    #{listreadings station:station/}
+    #{addreading station:station/}
+</section>

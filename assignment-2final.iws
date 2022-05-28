@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfb0a91a-13b1-4a5c-ae55-f79fcd9fc9c2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Template_1000$_run_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Template_1000$_run_closure1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tags/welcomemenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/welcomemenu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment-2final.iws" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-2final.iws" afterDir="false" />
-    </list>
+    <list default="true" id="dfb0a91a-13b1-4a5c-ae55-f79fcd9fc9c2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +88,7 @@
       <workItem from="1653739441360" duration="458000" />
       <workItem from="1653739978072" duration="18000" />
       <workItem from="1653740737498" duration="389000" />
-      <workItem from="1653741434841" duration="2340000" />
+      <workItem from="1653741434841" duration="2895000" />
     </task>
     <servers />
   </component>
