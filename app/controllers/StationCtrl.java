@@ -19,6 +19,15 @@ public class StationCtrl extends Controller {
 
         render("station.html", station, latestReading);
     }
+    public static void deleteReading(Long id, Long readingid) {
+        Station station = Station.findById(id);
+        Reading reading = Reading.findById(readingid);
+        Logger.info("Removing " + reading.code);
+        station.readings.remove(reading);
+        station.save();
+        reading.delete();
+        render("station.html", station);
+    }
     public static void addReading(Long id, int code, double temperature, double windSpeed, int windDirection, int pressure) {
         Reading reading = new Reading(code, temperature, windSpeed, windDirection, pressure);
         Station station = Station.findById(id);
