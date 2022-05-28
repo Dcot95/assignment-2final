@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfb0a91a-13b1-4a5c-ae55-f79fcd9fc9c2" name="Changes" comment="" />
+    <list default="true" id="dfb0a91a-13b1-4a5c-ae55-f79fcd9fc9c2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment-2final.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-2final.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment-2final.iws" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-2final.iws" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +19,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -27,6 +34,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28vzV3JKbuTkxX0hpsJwWuca056" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -84,7 +92,7 @@
       <workItem from="1653739441360" duration="458000" />
       <workItem from="1653739978072" duration="18000" />
       <workItem from="1653740737498" duration="389000" />
-      <workItem from="1653741434841" duration="660000" />
+      <workItem from="1653741434841" duration="1403000" />
     </task>
     <servers />
   </component>
